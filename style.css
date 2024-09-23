@@ -354,3 +354,27 @@ footer{
     font-family: "Open Sans", sans-serif;
    font-size: 15px;
 }
+
+
+@media(max-width: 768px){
+    body{
+        width: 250px;
+    }
+    .main1-content{
+        display:block;
+    }
+    .main3-content{
+        display:block;
+      
+    }
+    .main3-content img{
+        width: 100px;
+    }
+    .main4-content{
+        display: block;
+    }
+    .main2-menu ul{
+        display: block;
+        
+    }
+}
