@@ -85,23 +85,23 @@ header{
     color: #00c6d7;
     font-size: 60px;
 }
-.title h3{
-    font-size: 25px;
-}
+
 .title1{
     text-align: center;
     margin-top: 45px;
     font-family: "Open Sans", sans-serif;
     
 }
-.title1 h2{
-    color: #00c6d7;
-    font-size: 60px;
-}
+
 .title1 h3{
     font-size: 25px;
     color: white;
 }
+.title1 h2{
+    color: white;
+    font-size: 60px;
+}
+
 
 .Line-1{
     border-top: solid 0.5px rgb(167, 165, 165);
@@ -345,9 +345,7 @@ header{
     margin-top: 45px;
     margin-right: 10px;
     margin-bottom: 40px;
-}
-  
-
+} 
 footer{
     text-align: center;
     margin-top: 50px;
@@ -357,18 +355,102 @@ footer{
 
 
 @media(max-width: 768px){
-    body{
-        width: 250px;
+    header{ 
+        height: 65vh;
+    }
+    .head h3{
+        width: 70%;
+        font-size: 20px;  
+        margin-top: 40px; 
+    }
+    .menu ul{
+        display: block;
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .Line{
+        border-top: solid 0.5pt;
+        width: 100px;
+        margin-left: 39%;
+        margin-top: 10px;
+       
+    }
+    
+    .Line-2{
+        border: none;
+        
+    }
+    .Line-1{
+        border: none;
+    }
+    .head-2{
+        line-height: 25px;
+        margin-top: 120px;
+       
+    }
+    .head-2 h5{
+        font-size: 10px;
+    }
+    .head-2 h1{
+        font-size: 15px;
+        
+    }
+    .btn-1{
+        padding: 15px 20px;
+        margin-top: 20px;
+    }
+    .btn-2{
+        padding: 15px 20px;
+   
+        margin-top: 20px;
     }
     .main1-content{
         display:block;
+    }
+    .main2-content{
+        display: block;
+       
+    }
+    .main2-content img{
+        width: 89%;
+        margin-left: 5%;
+        margin-bottom: 20px;
+    }
+    
+    .main2-content1{
+        margin-left: 20px;
+       
+    }
+    .main2-content1 h3{
+        font-size: 25px;
+        margin: 10px 0;
+    }
+    .main2-content1 h4{
+        font-size: 20px;
+        
+    }
+    .main2-menu ul{
+        font-size: 15px;
+        
+    }
+    .menu-content{
+        font-size: 10px;
+        line-height: 20px;
+        padding-bottom: 50px;
     }
     .main3-content{
         display:block;
       
     }
+    .main3-head ul{
+        display: flex;
+        margin-left: 30px;
+        font-size: 14px;    
+        margin-top: 30px;
+    }
     .main3-content img{
-        width: 100px;
+        width: 89%;
+        margin-left: 5%;
     }
     .main4-content{
         display: block;
@@ -377,4 +459,34 @@ footer{
         display: block;
         
     }
+    .main5-head{
+        display: block;
+    }
+    .main5-side{
+        display: block;
+       
+    }
+    .btns{
+        padding-right: 205px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        gap: 55px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+      
+    }
+    .message{
+        padding-right: 10px;
+        padding-bottom: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .btns1{
+        padding: 10px 50px;
+        margin-left: 10px;
+        margin-top: 15px;
+        margin-bottom: 20%;
+    }
+   
 }
