@@ -356,7 +356,7 @@ footer{
 
 @media(max-width: 768px){
     header{ 
-        height: 65vh;
+        height: 80vh;
     }
     .head h3{
         width: 70%;
@@ -389,10 +389,10 @@ footer{
        
     }
     .head-2 h5{
-        font-size: 10px;
+        font-size: 15px;
     }
     .head-2 h1{
-        font-size: 15px;
+        font-size: 20px; 
         
     }
     .btn-1{
@@ -434,7 +434,7 @@ footer{
         
     }
     .menu-content{
-        font-size: 10px;
+        font-size: 8px;
         line-height: 20px;
         padding-bottom: 50px;
     }
@@ -447,13 +447,22 @@ footer{
         margin-left: 30px;
         font-size: 14px;    
         margin-top: 30px;
+        gap: 20px;
     }
     .main3-content img{
-        width: 89%;
+        width: 90%;
         margin-left: 5%;
+        margin-right: 5%;
+
     }
     .main4-content{
         display: block;
+    }
+    .box{
+        padding: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        
     }
     .main2-menu ul{
         display: block;
@@ -467,13 +476,10 @@ footer{
        
     }
     .btns{
-        padding-right: 205px;
-        padding-top: 10px;
+        padding-right: 87%;
         padding-bottom: 10px;
-        gap: 55px;
         margin-left: 10px;
         margin-right: 10px;
-        margin-bottom: 15px;
       
     }
     .message{
